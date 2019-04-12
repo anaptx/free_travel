@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/account/profile4_1/profile4_1",
+    
     "pages/tabbar/free_travel/free_travel",
     "pages/account/profile6_1/profile6_1",
-    
+    "pages/account/profile4_1/profile4_1",
     "pages/account/profile11_1/profile11_1",
     "pages/tabbar/personal/personal",
     "pages/account/account-profile/account-profile",
