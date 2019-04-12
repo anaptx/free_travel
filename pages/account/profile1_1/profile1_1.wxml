@@ -1,0 +1,24 @@
+<!--pages/account/profile_1/profile_1.wxml-->
+<view class='view-page'>
+  <view class='container'>
+    <navBar page-name="编辑资料" showNav="{{true}}" showHome="{{true}}" pageIcon='../../static/images/global_icon_nav_profile03.png'></navBar>
+    <view class='body'>
+      <view class='nickname'>
+        <input maxlength="15" bindinput="bindNicknameInput" type="text"/>
+        <image mode='aspectFill' src='/static/images/global_icon_name_style1.png'></image>
+        <!-- <view class='testname'>王小二</view> -->
+      </view>
+      <view class="tips1">15字符以内 中文 A-Z a-z 0-9 - _ </view>
+
+      <view class='signature'>
+        <textarea maxlength='30'></textarea>
+        <image mode='aspectFill' src='/static/images/global_icon_signature_style1.png'></image>
+      </view>
+      <view class='tips2'>30字符以内</view>
+
+      <view class='save'>
+        <image src='/static/images/global_btn_ok_style2.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

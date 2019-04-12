@@ -1,0 +1,106 @@
+/* pages/account/profile11_1/profile11_1.wxss */
+.body{
+  display: flex;
+  justify-content: center;
+  margin-top: 40rpx;
+  flex-direction: column;
+  align-items: center;
+}
+.body .password{
+  margin-top: 70rpx;
+  width:550rpx;
+  height:90rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:0rpx 2rpx 8rpx 4rpx rgba(0,0,0,0.1);
+  border-radius:45rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .password input{
+  font-size:28rpx;
+  width:550rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  line-height:40rpx;
+  padding-left: 90rpx;
+}
+.password image{
+  width: 72rpx;
+  height: 72rpx;
+}
+.password-image1{
+  position: fixed;
+  left: 120rpx;
+}
+.password-image2{
+  position: fixed;
+  right: 120rpx;
+}
+
+.body .original-password{
+  width:550rpx;
+  height:90rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:0rpx 2rpx 8rpx 4rpx rgba(0,0,0,0.1);
+  border-radius:45rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .original-password input{
+  font-size:28rpx;
+  width:550rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  line-height:40rpx;
+  padding-left: 90rpx;
+}
+.original-password image{
+  width: 72rpx;
+  height: 72rpx;
+}
+.original-password-image1{
+  position: fixed;
+  left: 120rpx;
+}
+.original-password-image2{
+  position: fixed;
+  right: 120rpx;
+}
+
+.body .tips1{
+  text-align: center;
+  margin-top: 20rpx;
+  width:366rpx;
+  height:28rpx;
+  font-size:23rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+  line-height:28rpx;
+}
+.save image{
+  margin-top: 100rpx;
+  width: 110rpx;
+  height: 110rpx;
+}
+.signup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 150rpx;
+  box-shadow:0rpx 2rpx 8rpx 4rpx rgba(0,0,0,0.1);
+}
+.signup image{
+  width: 38rpx;
+  height: 38rpx;
+}
+.signup-id{
+  margin-top: 10rpx;
+  font-size: 24rpx;
+}

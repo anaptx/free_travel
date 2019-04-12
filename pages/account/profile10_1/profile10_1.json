@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "更换号码",
+  "usingComponents": {
+    "navBar": "/components/navBar/navBar"
+  }
+}

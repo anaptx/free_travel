@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/account/profile4_1/profile4_1",
+    "pages/tabbar/free_travel/free_travel",
+    "pages/account/profile6_1/profile6_1",
+    
+    "pages/account/profile11_1/profile11_1",
+    "pages/tabbar/personal/personal",
+    "pages/account/account-profile/account-profile",
+    "pages/account/about/about",
+    "pages/account/profile10_1/profile10_1",
+    "pages/account/profile9_1/profile9_1",
+    "pages/account/profile8_1/profile8_1",
+    "pages/account/profile7_1/profile7_1",
+
+    "pages/account/account_signin/account_signin",
+    "pages/account/profile2_1/profile2_1",
+    
+    
+    "pages/account/profile5_1/profile5_1",
+    "pages/account/profile3_1/profile3_1",
+    
+    
+    
+    
+    "pages/account/profile1_1/profile1_1",
+    "pages/tabbar/map/map",
+    "pages/logs/logs",
+    "components/navBar/navBar"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "周末自由行",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#333",
+    "color": "#999",
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/free_travel/free_travel",
+        "iconPath": "static/images/global_icon_diytour_style1_default.png",
+        "selectedIconPath": "static/images/global_icon_diytour_style1_selected.png",
+        "text":"周末自由行"
+      },
+      {
+        "pagePath": "pages/tabbar/map/map",
+        "iconPath": "/static/images/global_icon_map_style1_default.png",
+        "selectedIconPath": "/static/images/global_icon_map_style1_selected.png",
+        "text":"民宿地图"
+      },
+      {
+        "pagePath": "pages/tabbar/personal/personal",
+        "iconPath": "/static/images/global_icon_personal_style1_default.png",
+        "selectedIconPath": "/static/images/global_icon_personal_style1_selected.png",
+        "text":"我的"
+      }
+    ]
+  }
+}

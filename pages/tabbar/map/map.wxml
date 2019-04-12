@@ -1,0 +1,4 @@
+<!--pages/tabbar/map/map.wxml-->
+<view class='view-page'>
+<navBar page-name="民宿地图" showNav="{{true}}" showHome="{{true}}" pageIcon='../../static/images/global_icon_nav_map01.png'></navBar>
+</view>

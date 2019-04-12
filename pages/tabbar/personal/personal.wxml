@@ -1,0 +1,42 @@
+<!--pages/tabbar/personal/personal.wxml-->
+<view class='view-page'>
+  <view class='container'>
+    <navBar page-name="个人中心" showNav="{{true}}" showHome="{{true}}" pageIcon="../../static/images/global_icon_nav_profile01.png"></navBar>
+    <view class='login'>
+
+      <view class='wx-login'>
+        <image class='wx-login-img' mode='aspectFill' src='/static/images/global_img_portrait_style1_weixin.png' bindtap='wxlogin'/>
+        <view style='margin-top:20rpx'>微信登录</view>
+      </view>
+
+      <view class='phone-login'>
+        <view class='phone-login-image'>
+          <image class='phone-login-img1' mode='aspectFill' src='/static/images/global_btn_phone_style1_default.png'  bindtap='phonelogin'/>
+        </view>
+        <view class='phone-login-bg'>
+          <image class='phone-login-img2' mode='aspectFill' src='/static/images/global_bg_portrait_style1.png'/>
+          <view style='margin-top:20rpx'>手机登录</view>
+        </view>
+      </view>
+      
+    </view>
+
+    <view class='group'>
+      <block wx:for="{{list}}" wx:for-item="item"  wx:key="index">
+        <view open-type="{{item.contact}}" size="20" session-from="weapp" data-url="{{item.url}}"  data-index="{{index}}" class="item" xbindtouchstart="press" >
+          <view class="icon">
+            <image class= src="{{item.icon}}"/>
+          </view>
+
+          <text class="txt">{{item.name}}</text>
+          <view class="shade {{idx == index ? 'active':''}}"></view>
+        </view>
+      </block>
+    </view>
+
+    <view class='setting' bindtap='setting'>
+      <image class='setting-image' mode='aspectFill' src='/static/images/global_icon_nav_profile10.png'></image>
+      <view style='margin-top:20rpx'>设置</view>
+    </view>
+  </view>
+</view>

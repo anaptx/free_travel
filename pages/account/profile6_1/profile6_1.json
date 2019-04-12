@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "注册手机号",
+  "usingComponents": {
+    "navBar": "/components/navBar/navBar"
+  }
+}

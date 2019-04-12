@@ -1,0 +1,96 @@
+/* pages/tabbar/personal/personal.wxss */
+.login{
+  display: flex;
+  justify-content: center;
+  font-size: 28rpx;
+}
+.wx-login{
+  width: 120rpx;
+  height: 150rpx;
+  margin-left: 350rpx;
+}
+.wx-login-img{
+  border-radius: 90rpx;
+  width: 96rpx;
+  height: 96rpx;
+  box-shadow: 1rpx 1rpx 1rpx 1rpx rgb(190, 190, 190);
+  z-index: 66;
+}
+.phone-login{
+  width: 100rpx;
+  height: 150rpx;
+  margin-right: 450rpx;
+}
+.phone-login-image{
+  position: absolute;
+  z-index: 2;
+}
+.phone-login-img1{
+  border-radius: 90rpx;
+  width: 96rpx;
+  height: 96rpx;
+  box-shadow: 1rpx 1rpx 1rpx 1rpx rgb(190, 190, 190); 
+  margin-left: 130rpx;
+  z-index: 66;
+}
+.phone-login-bg{
+  position: absolute;
+  z-index: 1;
+  margin-left: 133rpx;
+}
+.phone-login-img2{
+  border-radius: 90rpx;
+  width: 96rpx;
+  height: 96rpx;
+}
+.setting{
+  font-size: 24rpx;
+  margin-top: 60rpx;
+}
+.setting-image{
+  width: 48rpx;
+  height: 48rpx;
+}
+.container .group{
+  margin-top: 120rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container .item {
+  margin: 0;
+  width:200rpx;
+  height:250rpx;
+  margin-bottom: 24rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.container .item .icon{
+  width:40rpx;
+  height:40rpx;
+  margin-bottom: 60rpx;
+  display: flex;
+  justify-content: center;
+}
+.container .item .icon image{
+  width:45rpx;
+  height:45rpx;
+}
+.container .item .txt{
+  font-size:24rpx;
+  font-family:PingFang-SC-Medium;
+  font-weight:500;
+  color:rgb(204, 199, 199);
+  line-height:40rpx;
+}
+.icon-image{
+  width: 60rpx;
+  height: 60rpx;
+  position: fixed;
+  top: 85rpx;
+  left: 100rpx;
+  z-index: 666;
+}

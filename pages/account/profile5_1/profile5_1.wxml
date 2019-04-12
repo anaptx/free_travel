@@ -1,0 +1,28 @@
+<!--pages/account/profile5_1/profile5_1.wxml-->
+<view class='view-page'>
+  <view class='container'>
+    <navBar page-name="设置" showNav="{{true}}" showHome="{{true}}" pageIcon='../../static/images/global_icon_nav_profile10.png'></navBar>
+    <view class='body'>
+    
+      
+      <view class='phone-number'>
+        <view class='profile-text'>账号安全</view>
+        <view class='describe'>修改号码、密码等</view>
+        <image mode='aspectFill' src='/static/images/global_btn_next_style1.png' bindtap='gotoChange'></image>
+      </view>
+
+      <view class='login-password'>
+        <view class='profile-text'>账号绑定</view>
+        <view class='describe'>绑定微信号</view>
+        <image mode='aspectFill' src='/static/images/global_btn_next_style1.png'></image>
+      </view>
+
+      <view class='about'>
+        <view class='profile-text'>关于</view>
+        <view class='describe'>联系方式、版本、开发团队</view>
+        <image mode='aspectFill' src='/static/images/global_btn_next_style1.png' bindtap='gotoAbout'></image>
+      </view>
+
+    </view>
+  </view>
+</view>

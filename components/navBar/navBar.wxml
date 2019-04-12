@@ -1,0 +1,22 @@
+<!--components/navbar/index.wxml-->
+<view class="navbar" style='height:{{navH}}px'>
+  <view class="navbar-action-wrap  {{showHome ? 'navbar-action-group' : ''}} row item-center" wx:if="{{showNav}}">
+    <block wx:if="{{showHome}}">
+      <view name="back" color="#333" class="navbar-action_item first" catchtap="navBack">
+        <image src="../../static/images/global_btn_back_style1.png"></image>
+      </view>
+      <view name="index"  color="#333" class="navbar-action_item second">
+        <image mode='aspectFit' src="{{pageIcon}}"></image>
+      </view>
+    </block>
+    <block wx:else>
+      <view name="back" color="#333" class="navbar-action_item first" catchtap="navBack">
+        <image src="../../static/images/global_btn_back_style1.png"></image>
+      </view>
+    </block>
+    
+  </view>
+  <view class='navbar-title'>
+    {{pageName}}
+  </view>
+</view>

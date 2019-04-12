@@ -1,0 +1,15 @@
+<!--pages/account/profile11_1/profile11_1.wxml-->
+<view class='view-page'>
+  <view class='container'>
+    <navBar page-name="头像" showNav="{{true}}" showHome="{{true}}" pageIcon='../../static/images/global_icon_nav_profile09.png'></navBar>
+    <view class='body'>
+
+      
+      <view class='signup'>
+        <image src='/static/images/global_icon_signup_style1_default@3x.png'></image>
+      </view>
+      <view class='signup-id'>同步微信头像</view>
+
+    </view>
+  </view>
+</view>

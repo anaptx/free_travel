@@ -1,0 +1,31 @@
+<!--pages/tabbar/free_travel/free_travel.wxml-->
+<view class='view-page'>
+  <navBar page-name="周末自由行" showNav="{{true}}" showHome="{{true}}" pageIcon='../../static/images/global_icon_nav_diytour01.png'></navBar>
+  <view class='body'>
+      <view class='group'>
+          <block wx:for="{{list}}" wx:for-item="item"  wx:key="index">
+            <view class='item' style='background:{{imgHoverIndex == index ?item.hoverViewBg:item.viewBg}}' bindtap='chooseThis' data-index='{{index}}' data-currentTab='{{item.currentTab}}'>
+              <text class="txt">{{item.name}}</text>
+              <view class="icon">
+                <image src="{{imgHoverIndex == index ?item.hoverIcon:item.icon}}"/>
+              </view>
+              
+              <view class="shade {{idx == index ? 'active':''}}"></view>
+            </view>
+          </block>
+      </view>
+
+      <swiper current='{{item.currentTab}}' class='swiper' bindchange='bindchange' duration='300'>
+        <swiper-item>
+          <view class='a'>111111111111111111</view>
+        </swiper-item>
+        <swiper-item>
+          <view class='b'>2</view>
+        </swiper-item>
+        <swiper-item>
+          <view class='c'>3</view>
+        </swiper-item>
+      </swiper>
+
+  </view>
+</view>

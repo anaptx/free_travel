@@ -1,0 +1,89 @@
+/* pages/account/about/about.wxss */
+.container{
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.body{
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 76rpx;
+  flex-direction: column;
+  align-items: center;
+}
+.body .phone-number{
+  width:550rpx;
+  height:90rpx;
+  background:rgba(255,255,255,1);
+  border:none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .phone-number input{
+  font-size:28rpx;
+  width:550rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  line-height:40rpx;
+  padding-left: 180rpx;
+}
+
+.body .login-password{
+  margin-top: 10rpx;
+  width:550rpx;
+  height:90rpx;
+  background:rgba(255,255,255,1);
+  border:none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body .about{
+  margin-top: 10rpx;
+  width:550rpx;
+  height:90rpx;
+  background:rgba(255,255,255,1);
+  border:none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  right: 110rpx;
+}
+
+.save{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 400rpx;
+  box-shadow:0rpx 2rpx 8rpx 4rpx rgba(0,0,0,0.1);
+}
+.save image{
+  width: 35rpx;
+  height: 45rpx;
+}
+.change-account{
+  margin-top: 10rpx;
+  font-size: 26rpx;
+}
+.profile-text{
+  position: absolute;
+  left: 130rpx;
+  font-size: 32rpx;
+}
+.describe{
+  position: absolute;
+  left: 300rpx;
+  font-size: 24rpx;
+  color: rgb(129, 128, 128);
+}

@@ -1,0 +1,21 @@
+<!--pages/account/profile7_1/profile7_1.wxml-->
+<view class='view-page'>
+  <view class='container'>
+    <navBar page-name="忘记密码" showNav="{{true}}" showHome="{{true}}" pageIcon='../../static/images/global_icon_nav_profile06.png'></navBar>
+    <view class='body'>
+      <view class='password'>
+        <input maxlength="15" type="text"/>
+        <image class='password-image1' mode='aspectFill' src='/static/images/global_icon_phone_style1.png'></image>
+        <image class='password-image2' mode='aspectFill' src='/static/images/global_btn_sendcode_style1.png'></image>
+        <!-- <view class='testname'>王小二</view> -->
+      </view>
+      <view class="tips1">输入注册所用手机号，发送验证码</view>
+
+      <view class='agree'>注册即代表您同意</view>
+      <view class='proto'>用户服务协议</view>
+      <view class='save'>
+        <image src='/static/images/global_btn_ok_style2.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

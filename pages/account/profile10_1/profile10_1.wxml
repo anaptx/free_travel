@@ -1,0 +1,23 @@
+<!--pages/account/profile10_1/profile10_1.wxml-->
+<view class='view-page'>
+  <view class='container'>
+    <navBar page-name="更换号码" showNav="{{true}}" showHome="{{true}}" pageIcon='../../static/images/global_icon_nav_profile12.png'></navBar>
+    <view class='body'>
+      <view class='password'>
+        <input maxlength="15" bindinput="bindNicknameInput" type="text"/>
+        <image class='password-image1' mode='aspectFill' src='/static/images/global_icon_phone_style1.png'></image>
+        <image class='password-image2' mode='aspectFill' src='/static/images/global_btn_sendcode_style1.png'></image>
+      </view>
+      <view class="tips1">输入原手机号，发送验证码</view>
+
+      <view class='question'>
+        <image src='/static/images/pnedit1_verify_icon_title@3x.png'></image>
+      </view>
+      <view class='question-text'>原手机号码已不可用?</view>
+      <view class='next'>
+        <image src='/static/images/global_btn_next_style1.png' bindtap='binding'></image>
+      </view>
+      
+    </view>
+  </view>
+</view>

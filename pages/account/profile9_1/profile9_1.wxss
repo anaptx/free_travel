@@ -1,0 +1,57 @@
+/* pages/account/profile9_1/profile9_1.wxss */
+.body{
+  display: flex;
+  justify-content: center;
+  margin-top: 76rpx;
+  flex-direction: column;
+  align-items: center;
+}
+.body .password{
+  width:550rpx;
+  height:90rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:0rpx 2rpx 8rpx 4rpx rgba(0,0,0,0.1) inset;
+  border-radius:45rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .password input{
+  font-size:28rpx;
+  width:550rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  line-height:40rpx;
+  padding-left: 90rpx;
+}
+.password image{
+  width: 72rpx;
+  height: 72rpx;
+}
+.password-image1{
+  position: fixed;
+  left: 120rpx;
+}
+.password-image2{
+  position: fixed;
+  right: 120rpx;
+  z-index: 666;
+}
+
+.body .tips1{
+  text-align: center;
+  margin-top: 10rpx;
+  width:366rpx;
+  height:28rpx;
+  font-size:23rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+  line-height:28rpx;
+}
+.save image{
+  margin-top: 600rpx;
+  width: 110rpx;
+  height: 110rpx;
+}

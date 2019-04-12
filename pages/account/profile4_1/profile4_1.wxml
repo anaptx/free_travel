@@ -1,0 +1,25 @@
+<!--pages/account/profile4_1/profile4_1.wxml-->
+<view class='view-page'>
+  <view class='container'>
+    <navBar page-name="账户安全" showNav="{{true}}" showHome="{{true}}" pageIcon='../../static/images/global_icon_nav_profile11.png'></navBar>
+    <view class='body'>
+    
+      
+      <view class='phone-number'>
+        <view class='profile-text'>更换号码</view>
+        <input value='123456' maxlength='15' disabled='true'></input>
+        <image mode='aspectFill' src='/static/images/global_btn_next_style1.png' bindtap='changeNumber'></image>
+      </view>
+
+      <view class='login-password'>
+        <view class='profile-text'>修改密码</view>
+        <image mode='aspectFill' src='/static/images/global_btn_next_style1.png' bindtap='changePassword'></image>
+      </view>
+
+      <view class='change'>
+        <image src='/static/images/global_icon_signout_style1_default@3x.png' bindtap='changeAccount'></image>
+      </view>
+      <view class='change-account'>切换账号</view>
+    </view>
+  </view>
+</view>

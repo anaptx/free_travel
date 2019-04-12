@@ -1,0 +1,28 @@
+<!--pages/account/about/about.wxml-->
+<view class='view-page'>
+  <view class='container'>
+    <navBar page-name="关于" showNav="{{true}}" showHome="{{true}}" pageIcon='../../static/images/global_icon_nav_profile16.png'></navBar>
+    <view class='body'>
+    
+      
+      <view class='phone-number'>
+        <view class='profile-text'>版本</view>
+        <view class='describe'>版本检测、版本号</view>
+        <image class='about-image' mode='aspectFill' src='/static/images/global_btn_next_style1.png'></image>
+      </view>
+
+      <view class='login-password'>
+        <view class='profile-text'>联系方式</view>
+        <view class='describe'>地址、电话、邮件、客服</view>
+        <image class='about-image' mode='aspectFill' src='/static/images/global_btn_next_style1.png'></image>
+      </view>
+
+      <view class='about'>
+        <view class='profile-text'>开发团队</view>
+        <view class='describe'>公司、资质、开发者</view>
+        <image class='about-image' mode='aspectFill' src='/static/images/global_btn_next_style1.png'></image>
+      </view>
+
+    </view>
+  </view>
+</view>

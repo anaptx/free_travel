@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "周末自由行",
+  "usingComponents": {
+    "navBar": "/components/navBar/navBar"
+  }
+}

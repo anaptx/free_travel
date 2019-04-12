@@ -1,0 +1,55 @@
+/* components/navbar/index.wxss */
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #FFF;
+}
+.navbar-title {
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  margin-left: 210rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #fff;
+  color: #333;
+  font-size: 36rpx;
+}
+
+.navbar-action-wrap{
+  position: absolute;
+  left: 10px;
+  bottom: 7px;
+  z-index: 100;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64rpx;
+  border:none;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.navbar-action_item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  width: 97rpx;
+  height: 32rpx; 
+}
+.navbar-action_item image{
+  width: 100rpx;
+  height: 60rpx;
+}
+.navbar-action-group {  
+  border: none;
+  overflow: hidden;
+}

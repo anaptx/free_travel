@@ -1,0 +1,19 @@
+<!--pages/account/profile9_1/profile9_1.wxml-->
+<view class='view-page'>
+  <view class='container'>
+    <navBar page-name="重置密码" showNav="{{true}}" showHome="{{true}}" pageIcon='../../static/images/global_icon_nav_profile06.png'></navBar>
+    <view class='body'>
+
+      <view class='password'>
+        <input maxlength="15" type="text" password='{{isPassword}}'/>
+        <image class='password-image1' mode='aspectFill' src='/static/images/global_icon_passwd_style1.png'></image>
+        <image class='password-image2' mode='aspectFill' src="{{isPassword ? '/static/images/global_btn_visibility_style2.png':'/static/images/global_btn_visibility_style1.png'}}" bindtap='showPassword'></image>
+      </view>
+      <view class="tips1">6至20位密码 A-Z a-z 0-9 _ </view>
+
+      <view class='save'>
+        <image src='/static/images/global_btn_ok_style2.png'></image>
+      </view>
+    </view>
+  </view>
+</view>
